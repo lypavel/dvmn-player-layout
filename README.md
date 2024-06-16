@@ -6,7 +6,7 @@
 
 ## Установка
 
-1. Установите [Python 3.10.12]().
+1. Установите [Python 3.10.12](https://www.python.org/downloads/release/python-31012/).
 2. Создайте, если нужно, виртуальное окружение
     ```sh
     python3 -m venv venv
