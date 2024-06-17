@@ -9,10 +9,15 @@
 
     <link rel="icon" type="image/png" href="static/favicon.png">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div id="player" class="player-wrapper">
       <div class="js-video-container video-container"></div>
+
       <div class="button-wrapper">
         <button class="js-play-button player-button">
           <i class="fa fa-play" aria-hidden="true"></i>
@@ -26,7 +31,13 @@
         <button class="js-mute-button player-button">
           <i class="fa fa-volume-up" aria-hidden="true"></i>
         </button>
-        <div class="video-container"></div>
+
+        <div class="player-timer">
+          <span class="js-current-time"></span>
+          <div class="player-progress-bar"></div>
+          <span class="js-duration"></span>
+        </div>
+
         <button class="js-fullscreen-button player-button">
           <i class="fa fa-expand" aria-hidden="true"></i>
         </button>
