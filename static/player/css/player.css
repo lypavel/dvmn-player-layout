@@ -28,35 +28,38 @@
   padding-right: 3px;
 }
 
-.player-timer {
+.player-progress {
   display: flex;
   flex-grow: 1;
+
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+
   align-items: center;
   padding-left: 4px;
 }
 
-.player-progress-bar {
-  flex-grow: 1;
+.player-progress-bar-wrapper {
+  cursor: pointer;
+
   display: flex;
+  flex-grow: 1;
+  align-items: center;
+
   margin-left: 10px;
   margin-right: 10px;
-  align-items: center;
+  padding-bottom: 1px;
 }
 
-.player-progress-bar-slider {
+.player-progress-bar {
   background-color: red;
   height: 5px;
   border-radius: 3px;
-  padding-left: 5px;
 }
 
-.player-progress-bar-slider-pointer {
-  cursor: pointer;
-
+.player-progress-slider {
   height: 8px;
   width: 8px;
   margin-left: -8px;
@@ -76,6 +79,6 @@
   transition-timing-function: ease-in;
 }
 
-.player-progress-bar:hover .player-progress-bar-slider-pointer {
+.player-progress-bar-wrapper:hover .player-progress-slider {
   opacity: 100%;
 }
