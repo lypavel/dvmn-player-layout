@@ -2,7 +2,7 @@
 
 [Демо ссылка](https://lypavel.github.io/dvmn-player-layout/)
 
-![Скриншот видеоплеера](https://github.com/lypavel/dvmn-player-layout/assets/157053921/dff727a5-9f49-4aa7-b739-f7382c62aea4)
+![Скриншот видеоплеера](https://github.com/lypavel/dvmn-player-layout/assets/157053921/e2de394b-59f2-4f70-ae64-b32466174b3b)
 
 ## Установка
 
